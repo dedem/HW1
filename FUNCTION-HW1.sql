@@ -1,5 +1,5 @@
 --------------------------------------------------------
---  File created - Çarþamba-Mayýs-04-2016   
+--  File created - Ã‡arÃ¾amba-MayÃ½s-04-2016   
 --------------------------------------------------------
 --------------------------------------------------------
 --  DDL for Procedure SET_MANAGER
@@ -12,7 +12,7 @@ set define off;
 , MAN_ID IN departments.manager_id%type 
 ) AS 
 BEGIN
-  UPDATE departments SET manager_ýd=MAN_ID WHERE department_ýd = dep_ýd;
+  UPDATE departments SET manager_Ã½d=MAN_ID WHERE department_Ã½d = dep_Ã½d;
  
 END SET_MANAGER;
 
